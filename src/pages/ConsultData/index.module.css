@@ -1,0 +1,55 @@
+.petDataContainer {
+  margin: 40px;
+  height: 100%;
+  padding: 25px;
+}
+
+.calendarAndInfoContainer {
+  height: 100%;
+}
+
+.calendarContainer {
+  padding: 20px 0px;
+  width: 50%;
+}
+
+.infoContainer {
+  padding: 20px;
+  width: 30%;
+  border: 10px solid #203b5b;
+  border-radius: 20px;
+}
+
+.extraInfo {
+  background-color: rgb(178, 214, 234, 0.6);
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.detailInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  padding: 0px 20px;
+}
+
+.footerButtons {
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .petDataContainer {
+    padding: 0px 10px;
+    margin: 20px;
+    margin-bottom: 50px;
+    height: auto;
+  }
+  .calendarContainer {
+    width: 100%;
+  }
+  .infoContainer {
+    width: 86%;
+    border: 7px solid #203b5b;
+  }
+}
